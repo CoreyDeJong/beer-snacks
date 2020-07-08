@@ -24,7 +24,7 @@ export default function SnackDetail(props) {
 }
 
 export async function getServerSideProps(context) {
-    const response = await fetch(`https://drf-snacks-api.herokuapp.com/api/v1/snacks/${context.params.id}`);
+    const response = await fetch(`https://beer-full-stack-api.herokuapp.com/api/v1/beer/${context.params.id}`);
     const snack = await response.json();
     console.log('snack',snack)
     return {

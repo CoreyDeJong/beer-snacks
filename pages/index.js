@@ -4,7 +4,7 @@ import Nav from '../components/Nav'
 import SnackForm from '../components/SnackForm'
 import SnackItem from '../components/SnackItem'
 
-const url = 'https://drf-snacks-api.herokuapp.com/api/v1/snacks/';
+const url = 'https://beer-full-stack-api.herokuapp.com/api/v1/beer/';
 
 class Home extends React.Component {
 
