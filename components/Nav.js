@@ -1,7 +1,11 @@
 import Link from 'next/link'
+import styles from './Nav.module.scss'
+
 
 function Nav() {
     return (
+        <nav className={styles.nav}>
+            <h1>Other Places To Go</h1>
         <ul>
             <li>
                 <Link href="/">
@@ -14,6 +18,7 @@ function Nav() {
                 </Link>
             </li>
         </ul>
+        </nav>
     )
 }
 
