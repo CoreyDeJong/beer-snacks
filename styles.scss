@@ -1,9 +1,12 @@
-$primary-color: #333;
+$primary-color: rgb(207, 135, 20);
+$background-color:  rgb(173, 56, 10);
+
 
 body {
   padding: 20px 20px 60px;
   margin: 0;
   color: $primary-color;
+  background-color: $background-color ;
 }
 
 li {

@@ -4,7 +4,7 @@ import axios from 'axios'
 
 export default function SnackDetail(props) {
 
-    const url = 'https://drf-snacks-api.herokuapp.com/api/v1/snacks/';
+    const url = 'https://beer-full-stack-api.herokuapp.com/api/v1/beer/';
 
     const router = useRouter();
 
